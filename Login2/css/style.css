@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url("/images/459-background.png") ;
+    background-position: center;
+    background-size: cover;
+}
+.formBox
+{
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.formBox h1
+{
+    font-size: 30px;
+    color: #3c00a0;
+    margin-bottom: 50px;
+    position: relative;
+}
+.formBox h1::after
+{
+    content: "";
+    width: 50px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #3c00a0;
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    transform: translateX(-50%);
+}
+.input_group
+{
+    height: 280px;
+}
+.input_field
+{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+input
+{
+    width: 100%;
+    padding: 18px 15px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+ion-icon
+{
+font-size: 20px;
+color: #999;
+margin: 0 10px;
+}
+form p
+{
+    font-size: 13px;
+    text-align: left;
+}
+form p a 
+{
+    text-decoration: none;
+    color: #3c00a0;
+}
+.btn_field
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.btn_field button
+{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}

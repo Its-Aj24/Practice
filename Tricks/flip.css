@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flip_header
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color:#2874f0;
+    position:sticky;
+}
+.main
+{
+    width:95%;
+    height:60px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+.main a
+{
+    text-decoration: none;
+    font-size: 11px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 500;
+}
+.main a span
+{
+    color: #FFE500;
+}
+.flip_exploral
+{
+    margin-top: -10px;
+}
+.flip_exploral img
+{
+    width: 10px;
+    height: 10px;
+}
+.main_logo img
+{
+    width: 75px;
+    height: 20px;
+}
+.flip_search
+{
+    margin-left: -30px;
+}
+.flip_search ion-icon
+{
+font-size: 40px;
+color: #fff;
+margin-bottom: -15px;
+}
+.flip_search input
+{
+    padding: 0 10px;
+    border: none;
+    width: 420px;
+    height: 37px;
+}
+.flip_login_btn
+{
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+.flip_seller a
+{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+.flip_dropdown label
+{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+}
+.flip_dropdown select
+{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.flip_cart ion-icon
+{
+width: 23px;
+height: 23px;
+color: #fff;
+margin-right: 3px;
+margin-bottom: -5px;
+}
+.flip_cart a
+{
+    font-size: italic;
+    font-size: 15px;
+    font-weight: 500;
+}
+.flip_products
+{
+    padding: 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.flip_category
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product div
+{
+text-align:center;
+}
+.product img
+{
+    width: 65px;
+    height: 65px;
+}
+.product a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight:500;
+}
+
+  .image-slideshow {
+    max-width: 100%;
+    height: 300px !important;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .image-slideshow img {
+    width: 100%;
+    height: 300px !important;
+
+  }
+  .wrapper {
+    overflow: hidden;
+  }
+  
+  .sliding-background {
+    background: url("https://rukminim2.flixcart.com/fk-p-flap/1688/280/image/f56c2cbfb5acf6c4.png?q=50") repeat-x;
+    height: 350px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+  }
+ 
+  
+  @keyframes slide{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
+
+  
+  
+  
+  .carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #747d89;
+	min-height: 325px;
+	text-align: center;
+	overflow: hidden;
+}
+.carousel .thumb-wrapper {
+	padding: 25px 15px;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+    border: 1px solid #e0e0e0;
+    transition: .2s;
+}
+.thumb-wrapper:hover
+{
+   transform: scale(1.1);
+}
+.carousel .item .img-box {
+	height: 120px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+.carousel .item img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carousel .thumb-content .btn {
+	color: #7ac400;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: none;
+	border: 1px solid #7ac400;
+	padding: 6px 14px;
+	margin-top: 5px;
+	line-height: 16px;
+	border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.carousel-control-prev, .carousel-control-next {
+	height: 44px;
+	width: 40px;
+	/* background: #7ac400;	 */
+	margin: auto 0;
+	border-radius: 4px;
+	opacity: 0.8;
+}
+i
+{
+    color: #000 !important;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+	background: grey;
+	opacity: 1;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 36px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -19px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: #fff;
+	text-shadow: none;
+	font-weight: bold;
+}
+.carousel-control-prev i {
+	margin-left: -2px;
+}
+.carousel-control-next i {
+	margin-right: -4px;
+}		
+.carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {	
+	background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+.carousel .wish-icon .fa-heart {
+	color: #ff6161;
+}
+.star-rating li {
+	padding: 0;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
+h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: #7ac400;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+.carousel-control-next, .carousel-control-prev
+{
+    width: 40px !important;
+    transform: translate(0%,-50%) !important;
+}
+#multiple
+{
+    display: flex;
+    margin-top: -10px;
+}
+.product_slide
+{
+    width: 80%
+}
+.flip_ads
+{
+    width:20%;
+}
+.flip_ads img
+{
+    width: 220px;
+    height: 350px;
+}
+
+
+/* 6 .product  */
+
+
+.flip_description
+{
+    color: #878787;
+    padding: 20px;
+}
+.flip_description div
+{
+    font-size: 11px;
+}
+.flip_description h1
+{
+    font-size:16px;
+}
+.flip_description h2
+{
+    font-size: 14px;
+    color: #878787;
+    text-align: left;
+}
+.flip_description h2::after
+{
+    display: none;
+}
+/* FOOTER */
+footer
+{
+    background-color: #172337;
+}
+.flip_footer
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #fff;
+    padding: 40px 10px;
+    font-size: 12px
+}
+.flip_footer ul li
+{
+    list-style: none;
+}
+.flip_footer ul li a
+{
+    color: #fff;
+    line-height: 25px;
+}
+.footer_left
+{
+    width: 55%;
+display: flex;
+justify-content:space-evenly;
+}
+.footer_right
+{
+    width: 45%;
+display: flex;
+}
+.flip_link
+{
+    padding:10px 20px;
+}
+.flip_link h5
+{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #878787;
+}
+.flip_register
+{
+    padding: 0 40px;
+}
+.flip_divider
+{
+    background-color:#878787;
+    padding: .5px;
+    height: 140px;
+}
+.flip_payment
+{
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+}
+.flip_payment ion-icon
+{
+    color: #ffc000;
+    font-size: 18px;
+}
+.flip_copyright ul
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.flip_copyright ul li
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+}
+.flip_copyright  span
+{
+    font-size: 14px;
+    color: #fff;
+}
+
+/* FOR THE LOADING   */
+.loading
+{
+    border: 5px solid grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-right-color: transparent;
+    animation: rot 2s linear infinite;
+}
+
+@keyframes rot
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+/* FOR MOBILE RESPONSIVE */
+
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .flip_header {
+        width: 100%;
+        display: block;
+        background-color: #2874f0;
+        position: sticky;
+    }
+    .main
+{
+    width:100%;
+    height:auto;
+   display: flex;
+   padding: 10px 0;
+}
+.flip_logo
+{
+margin: 0 20px;
+}
+.flip_btn
+{
+margin: 0 20px;
+}
+.flip_cart
+{
+margin: 0 20px;
+}
+.main_logo img
+{
+    width: 75px;
+    height: 20px;
+}
+.flip_seller a
+{
+    display: none;
+}
+.flip_dropdown
+{
+    display: none;
+}
+.flip_exploral
+{
+    margin-top:auto;
+}
+.flip_exploral
+{
+    margin-top:auto;
+}
+.flip_search
+{
+    margin-left: auto;
+    display: none;
+}
+.flip_search ion-icon
+{
+font-size: 40px;
+color: #fff;
+margin-bottom: auto;
+}
+.flip_search input
+{
+    display: none;
+    padding: auto;
+    border: none;
+    width: 100%;
+    height: 37px;
+}
+.flip_products
+{
+    padding: 20px 10px;
+}
+.flip_category
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.image-slideshow {
+    position: relative;
+    margin-top: auto;
+}
+ .wrapper {
+    display: none;
+  }
+  #multiple
+{
+    display:inline;
+    margin-top: auto;
+}
+.product_slide
+{
+    width: 100%;
+    padding: 20px 0;
+}
+.flip_title h4
+{
+    text-align: center;
+    margin:10px 0;
+}
+.flip_ads {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.flip_ads img {
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+}
+.flip_footer {
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #fff;
+    padding: 40px 10px;
+    font-size: 12px;
+}
+.flip_divider {
+    background-color: #878787;
+    padding: 0.5px;
+    height: .5px;
+}
+.flip_payment {
+    color: #fff;
+    display: block;
+}
+.flip_copyright ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.flip_link {
+    padding: 10px;
+}
+.footer_left {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer_right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flip_img
+{
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.flip_register {
+    padding: 0 !important;
+}
+ 
+}

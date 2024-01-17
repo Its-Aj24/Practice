@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tricks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section1">
+<h1 class="stylingg">It's You</h1>
+    </section>
+    <section>
+        <div class="main">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+    <section id="new_sec">
+
+    </section>
+    <section class="img_file">
+<img src="profile.png" alt="" style="width: 150px;height: 150px;border-radius: 50%;object-fit: cover;background:transparent;"><br>
+<input type="file">
+<script>
+    const imagee = document.querySelector("img"),input= document.querySelector("input");
+input.addEventListener("change",()=>{
+    imagee.src = URL.createObjectURL(input.files[0]);
+})
+ </script>
+    </section>
+</body>
+</html>
